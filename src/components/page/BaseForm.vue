@@ -12,7 +12,7 @@
 
       <el-form-item label="品牌">
         <el-select v-model="form.brand" placeholder="请选择">
-          <el-option v-for="item in brandList" :key="item.value" :label="item.name" :value="item.value"></el-option>
+          <el-option v-for="(item, index) in brandList" :key="index" :label="item.name" :value="item.value"></el-option>
         </el-select>
       </el-form-item>
 
@@ -26,13 +26,13 @@
 
       <el-form-item label="产品类型">
         <el-checkbox-group v-model="form.product">
-          <el-checkbox v-for="item in productList" :label="item.value">{{item.name}}</el-checkbox>
+          <el-checkbox v-for="(item, index) in productList" :key="index" :label="item.value">{{item.name}}</el-checkbox>
         </el-checkbox-group>
       </el-form-item>
 
       <el-form-item label="国家">
         <el-radio-group v-model="form.country">
-          <el-radio v-for="item in countryList" :label="item.value">{{item.name}}</el-radio>
+          <el-radio v-for="(item, index) in countryList" :key="index" :label="item.value">{{item.name}}</el-radio>
         </el-radio-group>
       </el-form-item>
 
