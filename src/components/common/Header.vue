@@ -26,7 +26,7 @@
                 <p v-text='name'></p>
                 <i class="el-icon-caret-bottom"></i>
                 <el-dropdown-menu slot="dropdown">
-                    <el-dropdown-item>github</el-dropdown-item>
+                    <el-dropdown-item command='github'>github</el-dropdown-item>
                     <el-dropdown-item command='loginOut'>退出登录</el-dropdown-item>
                 </el-dropdown-menu>
             </el-dropdown>
@@ -52,11 +52,15 @@
                     store.commit("loginOut");
                     this.$router.push('/login');
                 }
+
+                if (command === 'github') {
+                    window.open("https://github.com/ZengKunLun/vue-elementui-vuex-admin");
+                }
             }
         },
 
         computed: mapState(['fold', 'messageCount', 'name']),
-        
+
         mounted() {
             if (!store.state.messageCount) {
                 document.querySelector('.bell-red').style.display = 'none';
