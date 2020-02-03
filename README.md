@@ -6,19 +6,19 @@
 
 #### 登录
 
-![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/tree/master/screenshots/login.png)
+![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/raw/master/screenshots/login.png)
 
 #### 首页
 
-![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/tree/master/screenshots/dashboard.png)
+![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/raw/master/screenshots/dashboard.png)
 
 #### 表格
 
-![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/tree/master/screenshots/baseTable.png)
+![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/raw/master/screenshots/baseTable.png)
 
 #### 图表
 
-![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/tree/master/screenshots/chart.png)
+![img](https://github.com/ZengKunLun/vue-elementui-vuex-admin/raw/master/screenshots/chart.png)
 
 ## 特别鸣谢
 
