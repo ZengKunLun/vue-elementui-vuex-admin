@@ -1,0 +1,16 @@
+.public-warp{
+    padding: 30px;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.home-main-fade-enter-active,
+.home-main-fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.home-main-fade-enter,
+.home-main-fade-leave {
+    opacity: 0;
+}
